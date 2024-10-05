@@ -231,7 +231,7 @@ namespace NzbDrone.Core.Configuration
             }
         }
 
-        public string UiFolder => BuildInfo.IsDebug ? Path.Combine("..", "UI") : "UI";
+        public string UiFolder => BuildInfo.IsDebug ? Path.Combine("../..", "UI") : "UI";
 
         public string InstanceName
         {
